@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTOBOX | Аренда и Продажа байков в Нячанге</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            orange: '#FF5722',
+                            neon: '#FF7D00',
+                            dark: '#0D0F12',
+                            card: '#161920',
+                            accent: '#00E676'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-panel {
+            background: rgba(22, 25, 32, 0.75);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .glow-orange {
+            box-shadow: 0 0 25px rgba(255, 87, 34, 0.35);
+        }
+        .glow-emerald {
+            box-shadow: 0 0 25px rgba(0, 230, 118, 0.35);
+        }
+    </style>
+</head>
+<body class="bg-[#090A0C] text-gray-100 font-sans antialiased selection:bg-brand-orange selection:text-white">
+
+    <!-- NAV -->
+    <nav class="fixed top-0 left-0 right-0 z-50 glass-panel border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-12 h-12 bg-gradient-to-tr from-brand-orange to-amber-400 rounded-2xl flex items-center justify-center shadow
