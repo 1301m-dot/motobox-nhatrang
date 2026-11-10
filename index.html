@@ -1,4 +1,4 @@
-HTML
+
 <!DOCTYPE html>
 <html lang="ru" class="scroll-smooth">
 <head>
@@ -55,6 +55,7 @@ HTML
             
             <div class="hidden md:flex items-center gap-8 text-sm font-semibold text-gray-300">
                 <a href="#catalog" class="hover:text-brand-orange transition">Каталог</a>
+                <a href="#calculator" class="hover:text-brand-orange transition">Калькулятор</a>
                 <a href="#terms" class="hover:text-brand-orange transition">Условия</a>
                 <a href="#contacts" class="hover:text-brand-orange transition">Контакты</a>
             </div>
@@ -99,8 +100,9 @@ HTML
                 <!-- Card 1 -->
                 <div class="glass-panel rounded-3xl p-6 border border-white/10 hover:border-brand-orange/50 transition group flex flex-col justify-between">
                     <div>
+                        <!-- Место под фото: замените src на ссылку вашей фотографии байка, если нужно -->
                         <div class="relative rounded-2xl overflow-hidden mb-6 bg-black/50 h-52 flex items-center justify-center">
-                            <span class="absolute top-3 left-3 bg-brand-orange text-black font-black text-xs px-3 py-1.5 rounded-xl shadow-lg">🔥 ХИТ</span>
+                            <span class="absolute top-3 left-3 bg-brand-orange text-black font-black text-xs px-3 py-1.5 rounded-xl shadow-lg z-10">🔥 ХИТ</span>
                             <i class="fa-solid fa-motorcycle text-8xl text-gray-600 group-hover:scale-110 group-hover:text-brand-orange transition duration-500"></i>
                         </div>
                         <h3 class="text-xl font-bold mb-1">Honda Vision</h3>
@@ -123,7 +125,7 @@ HTML
                 <div class="glass-panel rounded-3xl p-6 border border-white/10 hover:border-brand-accent/50 transition group flex flex-col justify-between">
                     <div>
                         <div class="relative rounded-2xl overflow-hidden mb-6 bg-black/50 h-52 flex items-center justify-center">
-                            <span class="absolute top-3 left-3 bg-brand-accent text-black font-black text-xs px-3 py-1.5 rounded-xl shadow-lg">⚡ БЕЗ ПРАВ 50cc</span>
+                            <span class="absolute top-3 left-3 bg-brand-accent text-black font-black text-xs px-3 py-1.5 rounded-xl shadow-lg z-10">⚡ БЕЗ ПРАВ 50cc</span>
                             <i class="fa-solid fa-motorcycle text-8xl text-gray-600 group-hover:scale-110 group-hover:text-brand-accent transition duration-500"></i>
                         </div>
                         <h3 class="text-xl font-bold mb-1">Honda Giorno / Today</h3>
@@ -146,76 +148,9 @@ HTML
                 <div class="glass-panel rounded-3xl p-6 border border-white/10 hover:border-purple-500/50 transition group flex flex-col justify-between">
                     <div>
                         <div class="relative rounded-2xl overflow-hidden mb-6 bg-black/50 h-52 flex items-center justify-center">
-                            <span class="absolute top-3 left-3 bg-purple-500 text-white font-black text-xs px-3 py-1.5 rounded-xl shadow-lg">💎 ПРЕМИУМ</span>
+                            <span class="absolute top-3 left-3 bg-purple-500 text-white font-black text-xs px-3 py-1.5 rounded-xl shadow-lg z-10">💎 ПРЕМИУМ</span>
                             <i class="fa-solid fa-motorcycle text-8xl text-gray-600 group-hover:scale-110 group-hover:text-purple-400 transition duration-500"></i>
                         </div>
                         <h3 class="text-xl font-bold mb-1">Yamaha NVX / Air Blade</h3>
                         <p class="text-xs text-gray-400 mb-4">Мощные скутеры для путешествий по серпантинам и дальних поездок</p>
-                        <div class="flex items-center gap-3 text-xs text-gray-300 mb-6">
-                            <span class="bg-white/10 px-3 py-1.5 rounded-lg">155 cc</span>
-                            <span class="bg-white/10 px-3 py-1.5 rounded-lg">Автомат</span>
-                        </div>
-                    </div>
-                    <div class="pt-4 border-t border-white/10 flex items-center justify-between">
-                        <div>
-                            <span class="text-xs text-gray-400 block">Аренда в месяц</span>
-                            <span class="text-lg font-black text-purple-400">от 1.8M VND</span>
-                        </div>
-                        <a href="https://t.me/motorcycle_soul" target="_blank" class="px-4 py-2 rounded-xl bg-purple-500 text-white font-bold text-xs hover:brightness-110 transition">Забронировать</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- TERMS -->
-    <section id="terms" class="py-16 bg-black/40">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-black text-center mb-12">Условия аренды</h2>
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-                <div class="glass-panel p-6 rounded-2xl border border-white/10 text-center">
-                    <i class="fa-solid fa-passport text-3xl text-brand-orange mb-4"></i>
-                    <h3 class="font-bold mb-2">Документы</h3>
-                    <p class="text-xs text-gray-400">Паспорт в залог или денежный депозит (по договоренности)</p>
-                </div>
-                <div class="glass-panel p-6 rounded-2xl border border-white/10 text-center">
-                    <i class="fa-solid fa-helmet-safety text-3xl text-brand-orange mb-4"></i>
-                    <h3 class="font-bold mb-2">Шлемы в комплекте</h3>
-                    <p class="text-xs text-gray-400">Выдаем до 2 чистых и качественных шлемов бесплатно</p>
-                </div>
-                <div class="glass-panel p-6 rounded-2xl border border-white/10 text-center">
-                    <i class="fa-solid fa-truck-fast text-3xl text-brand-orange mb-4"></i>
-                    <h3 class="font-bold mb-2">Бесплатная доставка</h3>
-                    <p class="text-xs text-gray-400">Привезем байк бесплатно по району Lộc Thọ</p>
-                </div>
-                <div class="glass-panel p-6 rounded-2xl border border-white/10 text-center">
-                    <i class="fa-solid fa-clock text-3xl text-brand-orange mb-4"></i>
-                    <h3 class="font-bold mb-2">График работы</h3>
-                    <p class="text-xs text-gray-400">Пн-Пт: 10:00 – 17:00<br>Сб-Вс: По предварительной записи</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CONTACTS & FOOTER -->
-    <footer id="contacts" class="py-12 border-t border-white/10 glass-panel mt-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
-            <div>
-                <span class="text-2xl font-black text-white">MOTOBOX</span>
-                <p class="text-xs text-gray-400 mt-1">Нячанг, Вьетнам • Telegram: @rent_bike_nha</p>
-            </div>
-            <div class="flex flex-wrap items-center gap-3">
-                <a href="https://t.me/motorcycle_soul" target="_blank" class="px-4 py-2.5 rounded-xl bg-blue-600 text-white font-bold text-xs hover:bg-blue-500 transition flex items-center gap-2">
-                    <i class="fa-brands fa-telegram text-base"></i> @motorcycle_soul
-                </a>
-                <a href="https://t.me/tema_mar" target="_blank" class="px-4 py-2.5 rounded-xl bg-blue-600 text-white font-bold text-xs hover:bg-blue-500 transition flex items-center gap-2">
-                    <i class="fa-brands fa-telegram text-base"></i> @tema_mar
-                </a>
-                <a href="https://wa.me/84388970461" target="_blank" class="px-4 py-2.5 rounded-xl bg-emerald-600 text-white font-bold text-xs hover:bg-emerald-500 transition flex items-center gap-2">
-                    <i class="fa-brands fa-whatsapp text-base"></i> WhatsApp
-                </a>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+                        <div class="flex items-
