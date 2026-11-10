@@ -1,9 +1,11 @@
 
-<!DOCTYPE html>
-<html lang="ru" class="scroll-smooth">
+
+                <!DOCTYPE html>
+<html lang="ru" translate="no" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
     <title>MOTOBOX | Аренда и Продажа байков в Нячанге</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
@@ -32,9 +34,6 @@
         }
         .glow-orange {
             box-shadow: 0 0 25px rgba(255, 87, 34, 0.4);
-        }
-        .glow-emerald {
-            box-shadow: 0 0 25px rgba(0, 230, 118, 0.4);
         }
     </style>
 </head>
@@ -70,7 +69,7 @@
     </nav>
 
     <!-- HERO SECTION -->
-    <section class="relative pt-36 pb-20 overflow-hidden">
+    <section class="relative pt-36 pb-16 overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
             <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-panel border border-brand-orange/40 text-brand-orange text-xs font-bold uppercase tracking-widest mb-6">
                 <span class="w-2 h-2 rounded-full bg-brand-orange animate-ping"></span>
@@ -80,7 +79,7 @@
                 Твой идеальный байк <br>
                 <span class="bg-clip-text text-transparent bg-gradient-to-r from-brand-orange via-amber-400 to-brand-accent">для свободы во Вьетнаме</span>
             </h1>
-            <p class="max-w-2xl mx-auto text-gray-400 text-base sm:text-lg mb-10">
+            <p class="max-w-2xl mx-auto text-gray-400 text-base sm:text-lg mb-8">
                 Обслуженная техника, прозрачные цены, шлемы и держатель для телефона в комплекте. Бесплатная доставка по району Lộc Thọ!
             </p>
         </div>
@@ -100,7 +99,6 @@
                 <!-- Card 1 -->
                 <div class="glass-panel rounded-3xl p-6 border border-white/10 hover:border-brand-orange/50 transition group flex flex-col justify-between">
                     <div>
-                        <!-- Место под фото: замените src на ссылку вашей фотографии байка, если нужно -->
                         <div class="relative rounded-2xl overflow-hidden mb-6 bg-black/50 h-52 flex items-center justify-center">
                             <span class="absolute top-3 left-3 bg-brand-orange text-black font-black text-xs px-3 py-1.5 rounded-xl shadow-lg z-10">🔥 ХИТ</span>
                             <i class="fa-solid fa-motorcycle text-8xl text-gray-600 group-hover:scale-110 group-hover:text-brand-orange transition duration-500"></i>
@@ -117,7 +115,7 @@
                             <span class="text-xs text-gray-400 block">Аренда в месяц</span>
                             <span class="text-lg font-black text-brand-orange">от 1.2M VND</span>
                         </div>
-                        <a href="https://t.me/motorcycle_soul" target="_blank" class="px-4 py-2 rounded-xl bg-brand-orange text-black font-bold text-xs hover:brightness-110 transition">Забронировать</a>
+                        <a href="https://t.me/motorcycle_soul" target="_blank" class="px-4 py-2.5 rounded-xl bg-brand-orange text-black font-bold text-xs hover:brightness-110 transition">Забронировать</a>
                     </div>
                 </div>
 
@@ -140,7 +138,7 @@
                             <span class="text-xs text-gray-400 block">Аренда в месяц</span>
                             <span class="text-lg font-black text-brand-accent">от 1.0M VND</span>
                         </div>
-                        <a href="https://t.me/motorcycle_soul" target="_blank" class="px-4 py-2 rounded-xl bg-brand-accent text-black font-bold text-xs hover:brightness-110 transition">Забронировать</a>
+                        <a href="https://t.me/motorcycle_soul" target="_blank" class="px-4 py-2.5 rounded-xl bg-brand-accent text-black font-bold text-xs hover:brightness-110 transition">Забронировать</a>
                     </div>
                 </div>
 
@@ -153,4 +151,110 @@
                         </div>
                         <h3 class="text-xl font-bold mb-1">Yamaha NVX / Air Blade</h3>
                         <p class="text-xs text-gray-400 mb-4">Мощные скутеры для путешествий по серпантинам и дальних поездок</p>
-                        <div class="flex items-
+                        <div class="flex items-center gap-3 text-xs text-gray-300 mb-6">
+                            <span class="bg-white/10 px-3 py-1.5 rounded-lg">155 cc</span>
+                            <span class="bg-white/10 px-3 py-1.5 rounded-lg">Автомат</span>
+                        </div>
+                    </div>
+                    <div class="pt-4 border-t border-white/10 flex items-center justify-between">
+                        <div>
+                            <span class="text-xs text-gray-400 block">Аренда в месяц</span>
+                            <span class="text-lg font-black text-purple-400">от 1.8M VND</span>
+                        </div>
+                        <a href="https://t.me/motorcycle_soul" target="_blank" class="px-4 py-2.5 rounded-xl bg-purple-500 text-white font-bold text-xs hover:brightness-110 transition">Забронировать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALCULATOR -->
+    <section id="calculator" class="py-16 bg-black/40">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="glass-panel p-8 rounded-3xl border border-white/10 shadow-2xl">
+                <h2 class="text-2xl font-black mb-6 text-center">Калькулятор аренды</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label class="block text-xs text-gray-400 font-semibold mb-2">Срок аренды</label>
+                        <select id="calcDays" class="w-full bg-[#12141A] text-white rounded-xl px-4 py-3 border border-white/10 focus:outline-none focus:border-brand-orange">
+                            <option value="1">1 день</option>
+                            <option value="7">1 неделя</option>
+                            <option value="30" selected>1 месяц</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-400 font-semibold mb-2">Модель байка</label>
+                        <select id="calcModel" class="w-full bg-[#12141A] text-white rounded-xl px-4 py-3 border border-white/10 focus:outline-none focus:border-brand-orange">
+                            <option value="1200000">Honda Vision (от 1.2M / мес)</option>
+                            <option value="1000000">Honda Giorno 50cc (от 1.0M / мес)</option>
+                            <option value="1800000">Yamaha NVX / Air Blade (от 1.8M / мес)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row items-center justify-between p-4 rounded-2xl bg-white/5 border border-white/10 gap-4">
+                    <div>
+                        <span class="text-xs text-gray-400 block">Примерная стоимость:</span>
+                        <span id="calcTotal" class="text-2xl font-black text-brand-orange">1,200,000 VND</span>
+                    </div>
+                    <a href="https://t.me/motorcycle_soul" target="_blank" class="w-full sm:w-auto px-6 py-3 rounded-xl bg-gradient-to-r from-brand-orange to-amber-500 text-black font-black text-center shadow-lg hover:brightness-110 transition">
+                        Забронировать по расчету
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TERMS -->
+    <section id="terms" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-black text-center mb-12">Условия аренды</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="glass-panel p-6 rounded-2xl border border-white/10 text-center">
+                    <i class="fa-solid fa-passport text-3xl text-brand-orange mb-4"></i>
+                    <h3 class="font-bold mb-2">Документы</h3>
+                    <p class="text-xs text-gray-400">Паспорт в залог или денежный депозит (по договоренности)</p>
+                </div>
+                <div class="glass-panel p-6 rounded-2xl border border-white/10 text-center">
+                    <i class="fa-solid fa-helmet-safety text-3xl text-brand-orange mb-4"></i>
+                    <h3 class="font-bold mb-2">Шлемы в комплекте</h3>
+                    <p class="text-xs text-gray-400">Выдаем до 2 чистых и качественных шлемов бесплатно</p>
+                </div>
+                <div class="glass-panel p-6 rounded-2xl border border-white/10 text-center">
+                    <i class="fa-solid fa-truck-fast text-3xl text-brand-orange mb-4"></i>
+                    <h3 class="font-bold mb-2">Бесплатная доставка</h3>
+                    <p class="text-xs text-gray-400">Привезем байк бесплатно по району Lộc Thọ</p>
+                </div>
+                <div class="glass-panel p-6 rounded-2xl border border-white/10 text-center">
+                    <i class="fa-solid fa-clock text-3xl text-brand-orange mb-4"></i>
+                    <h3 class="font-bold mb-2">График работы</h3>
+                    <p class="text-xs text-gray-400">Пн-Пт: 10:00 – 17:00<br>Сб-Вс: По предварительной записи</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTS & FOOTER -->
+    <footer id="contacts" class="py-12 border-t border-white/10 glass-panel mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div>
+                <span class="text-2xl font-black text-white">MOTOBOX</span>
+                <p class="text-xs text-gray-400 mt-1">Нячанг, Вьетнам • Telegram: @rent_bike_nha</p>
+            </div>
+            <div class="flex flex-wrap items-center gap-3">
+                <a href="https://t.me/motorcycle_soul" target="_blank" class="px-4 py-2.5 rounded-xl bg-blue-600 text-white font-bold text-xs hover:bg-blue-500 transition flex items-center gap-2">
+                    <i class="fa-brands fa-telegram text-base"></i> @motorcycle_soul
+                </a>
+                <a href="https://t.me/tema_mar" target="_blank" class="px-4 py-2.5 rounded-xl bg-blue-600 text-white font-bold text-xs hover:bg-blue-500 transition flex items-center gap-2">
+                    <i class="fa-brands fa-telegram text-base"></i> @tema_mar
+                </a>
+                <a href="https://wa.me/84388970461" target="_blank" class="px-4 py-2.5 rounded-xl bg-emerald-600 text-white font-bold text-xs hover:bg-emerald-500 transition flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-base"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CALCULATOR SCRIPT -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const daysSelect
